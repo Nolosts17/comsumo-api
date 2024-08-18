@@ -10,3 +10,8 @@
 
 export { format } from './utils/utils';
 export type * from './components.d.ts';
+import { defineCustomElements as defineCustomElementsManolo } from 'componente-tarea-manolo/dist/esm/loader';
+// Define los componentes personalizados globalmente
+defineCustomElementsManolo(window);
+
+
